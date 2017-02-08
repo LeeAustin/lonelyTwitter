@@ -56,7 +56,7 @@ public class ElasticsearchTweetController {
             ArrayList<NormalTweet> tweets = new ArrayList<NormalTweet>();
 
                 // TODO Build the query
-
+            //Needs to be a Json object, and we pass it into Search.Builder
             String query = "";
 
             Search search = new Search.Builder(search_parameters[0])
